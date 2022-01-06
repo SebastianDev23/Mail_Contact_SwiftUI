@@ -11,6 +11,7 @@
 		C909C47F27875D3B009D3947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909C47E27875D3B009D3947 /* ContentView.swift */; };
 		C909C48127875D3C009D3947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C909C48027875D3C009D3947 /* Assets.xcassets */; };
 		C909C48427875D3C009D3947 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C909C48327875D3C009D3947 /* Preview Assets.xcassets */; };
+		C909C48B27875D56009D3947 /* MailHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C909C48A27875D56009D3947 /* MailHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C909C47E27875D3B009D3947 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C909C48027875D3C009D3947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C909C48327875D3C009D3947 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C909C48A27875D56009D3947 /* MailHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				C909C47C27875D3B009D3947 /* Mail_ContactApp.swift */,
 				C909C47E27875D3B009D3947 /* ContentView.swift */,
+				C909C48A27875D56009D3947 /* MailHelper.swift */,
 				C909C48027875D3C009D3947 /* Assets.xcassets */,
 				C909C48227875D3C009D3947 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C909C48B27875D56009D3947 /* MailHelper.swift in Sources */,
 				C909C47F27875D3B009D3947 /* ContentView.swift in Sources */,
 				C909C47D27875D3B009D3947 /* Mail_ContactApp.swift in Sources */,
 			);

@@ -2,7 +2,7 @@
 //  Mail_ContactApp.swift
 //  Mail_Contact
 //
-//  Created by Sebastian Klösel on 06.01.22.
+//  Created by Sebastian Kl
 //
 
 import SwiftUI

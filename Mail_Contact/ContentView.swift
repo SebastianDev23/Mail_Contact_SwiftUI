@@ -2,15 +2,37 @@
 //  ContentView.swift
 //  Mail_Contact
 //
-//  Created by Sebastian Klösel on 06.01.22.
+//  Created by Sebastian Kl
 //
 
 import SwiftUI
+import MessageUI
 
 struct ContentView: View {
+    
+    
+    @State var result: Result<MFMailComposeResult, Error>? = nil // Mailhelper
+    @State private var isShowingMailView = false
+    
+    
     var body: some View {
-        Text("Hello, world!")
+        
+        ZStack {
+            
+            Color.blue
+                .ignoresSafeArea()
+            
+            Button("Contact me") {
+                isShowingMailView.toggle()
+            }
             .padding()
+            .background(.ultraThickMaterial)
+            .cornerRadius(20)
+        }
+        .disabled(!MFMailComposeViewController.canSendMail())
+        .sheet(isPresented: $isShowingMailView) {
+            Mailhelper(result: self.$result)
+        }
     }
 }
 
